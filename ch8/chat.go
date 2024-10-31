@@ -63,7 +63,7 @@ func handleCon(conn net.Conn) {
 
 func main() {
 	fmt.Println("Listening...")
-	listener, err := net.Listen("tcp", "192.168.100.2:8000")
+	listener, err := net.Listen("tcp", "192.168.1.16:5003")
 	if err != nil {
 		log.Fatal(err)
 	}
